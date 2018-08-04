@@ -32,8 +32,6 @@ if not token:
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
 
-print(sp.search('artist:Lil Peep', type='artist', limit=10))
-sys.exit(0)
 artist_dict = {}
 keys = []
 section = 1
